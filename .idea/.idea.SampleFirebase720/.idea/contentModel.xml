@@ -4,9 +4,22 @@
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_SampleFirebase720.269383832.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ExternalDependencyManager" t="Include">
+          <e p="Editor" t="Include">
+            <e p="external-dependency-manager_version-1.2.165_manifest.txt" t="Include" />
+          </e>
+        </e>
         <e p="Firebase" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AnalyticsDependencies.xml" t="Include" />
+            <e p="AppDependencies.xml" t="Include" />
+            <e p="FirebaseAnalytics_version-7.2.0_manifest.txt" t="Include" />
+            <e p="FirebaseMessaging_version-7.2.0_manifest.txt" t="Include" />
+            <e p="MessagingDependencies.xml" t="Include" />
+          </e>
           <e p="m2repository" t="Include">
             <e p="com" t="Include">
               <e p="google" t="Include">
@@ -26,6 +39,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Builder" t="Include">
+              <e p="CgsBuilder.cs" t="Include" />
+            </e>
+          </e>
           <e p="MessagingSubscriber.cs" t="Include" />
         </e>
       </e>
