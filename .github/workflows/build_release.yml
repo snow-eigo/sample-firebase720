@@ -2,7 +2,7 @@ name: Build for Release
 
 on:
   release:
-    types: [published]
+    types: [published, prereleased]
 
 jobs:
   release:
@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Echo Tag
         run: |
-          echo ${{ GITHUB_SHA }}
-          echo ${{ GITHUB_REF }}
+          echo ${{ secrets.GITHUB_SHA }}
+          echo ${{ secrets.GITHUB_REF }}
