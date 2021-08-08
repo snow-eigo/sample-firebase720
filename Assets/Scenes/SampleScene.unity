@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tokenText: {fileID: 1088907400}
-  MessageText: {fileID: 1444208040}
+  messageText: {fileID: 1444208040}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
