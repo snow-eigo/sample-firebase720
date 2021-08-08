@@ -1,0 +1,14 @@
+name: Build for Firebase Distribution
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  sample:
+    name: Sample Job By Pushing
+    runs-on: ubuntu-latest
+    steps:
+        - name: Show Echo
+          run: echo "Building for Firebase Distribution"
