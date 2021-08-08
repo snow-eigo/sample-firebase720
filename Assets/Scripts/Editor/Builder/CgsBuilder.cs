@@ -21,6 +21,7 @@ namespace EditorBuilder
 
             // Apply build target
             var buildTarget = (BuildTarget) Enum.Parse(typeof(BuildTarget), options["buildTarget"]);
+            
             switch (buildTarget)
             {
                 case BuildTarget.Android:
@@ -173,12 +174,14 @@ namespace EditorBuilder
                     EditorApplication.Exit(102);
                     break;
                 case BuildResult.Unknown:
+                    Console.WriteLine("Build cancelled!");
+                    EditorApplication.Exit(103);
+                    break;
                 default:
                     Console.WriteLine("Build result is unknown!");
-                    EditorApplication.Exit(103);
+                    EditorApplication.Exit(104);
                     break;
             }
         }
     }
-
 }
